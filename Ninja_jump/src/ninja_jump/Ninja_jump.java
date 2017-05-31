@@ -73,7 +73,7 @@ class NewPanel extends JPanel implements ActionListener, MouseListener {
         Image StandR = loadImage("Muñeco2.png");
         Image StandL = loadImage("Muñeco1.png");
         Image Salto1 = loadImage("saltoderecha.png");
-        Image Salto2 = loadImage("saltoizq|ierda.png");
+        Image Salto2 = loadImage("saltoizquierda.png");
         Image Plataforma = loadImage("plataforma.png");
 
         //TAdapter a = new TAdapter();
