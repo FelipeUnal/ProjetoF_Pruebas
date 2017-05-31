@@ -39,6 +39,7 @@ public class Escenario extends JFrame {
                 JOptionPane.showMessageDialog(null, "Tu Score no se guardara, jugaras como invitado");
             } else {
                 Jugador.setNombre(a);
+                Lista.addJugador(Jugador);
             }
             JOptionPane.showMessageDialog(null, " Presiona Enter para Empezar  ");
         } else if (choice == JOptionPane.NO_OPTION) {
@@ -47,6 +48,7 @@ public class Escenario extends JFrame {
                 JOptionPane.showMessageDialog(null, "Tu Score no se guardara, jugaras como invitado");
             } else {
                 Jugador.setNombre(a);
+                Lista.addJugador(Jugador);
             }
             JOptionPane.showMessageDialog(null, " Presiona Enter para Empezar ");
         } else if (choice == JOptionPane.CANCEL_OPTION) {
